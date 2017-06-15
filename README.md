@@ -15,7 +15,7 @@ Based on a fork of the Adafruit_MAX31855K_library for the Adafruit Thermocouple 
 
 ----------------
 
-Create an object from this library by including
+Use this library by including
 ```
 #include "MAX31855K_NIST.h"
 ```
@@ -29,6 +29,7 @@ and then
 ```
 MAX31855K thermocouple(CS_MAX);
 ```
+before your `setup()` loop. 
 
 The function `readCelsius()` can then be used to get the temperature of the 
 thermocouple. This function automatically applies the NIST coefficient linearization and returns the adjusted temperature value:
