@@ -42,7 +42,10 @@ function `readRawCelsius()`:
 ```
 double rawTemp = thermocouple.readRawCelsius();
 ```
-
+Note that the "raw" temperature provided by `readRawCelsius()` will tend to deviate from the true thermocouple
+temperature quite significantly (10's of degrees) when you get to the extremes of
+the K-type thermocouple temperature range, while the corrected temperature 
+provided by `readCelsius()` should be much closer to the true temperature value. 
 
 
 
