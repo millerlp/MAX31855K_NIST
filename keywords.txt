@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map for NewSoftSerial
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MAX31855K	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readCelsius	KEYWORD2
+readRawCelsius	KEYWORD2
+readFarenheit	KEYWORD2
+readInternal	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
